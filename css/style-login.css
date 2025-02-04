@@ -1,0 +1,86 @@
+.bdy-login {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:#ff86e2;
+}
+
+.form-container {
+    width: 300px; /* Ajusta el ancho según tus necesidades */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fcbb14;
+    border-radius: 30px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-contenedor {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.input-contenedor input {
+    margin-left: 10px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.icon {
+    width: 40px; /* Ajusta el tamaño según tus necesidades */
+    height: 40px; /* Ajusta el tamaño según tus necesidades */
+    margin-right: 10px; /* Mantén el margen derecho para la disposición */
+    color: #e44f9c;
+}
+
+.btn-login {
+    display: block;
+    width: 100%; /* Ajusta el ancho del contenedor del botón */
+    padding: 10px; /* Ajusta el tamaño del botón */
+    font-size: 20px; /* Ajusta el tamaño del texto del botón */
+    background-color: #e44f9c; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px; /* Espacio superior */
+}
+
+/* Corazones */
+.heart {
+    position: absolute;
+    bottom: 0;
+    font-size: 24px;
+    color: #ff3366;
+    animation: floatUp 4s linear infinite;
+}
+
+ /* Animación de los corazones */
+    @keyframes floatUp {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-100vh);
+        opacity: 0;
+    }
+}
